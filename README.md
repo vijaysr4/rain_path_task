@@ -3,7 +3,7 @@ This project is a DDIM implementation for **virtual histological staining**, tra
 
 ### Task Description
 
-* **Virtual Staining**: Replace chemical H\&E staining with a computational approach, generating realistic H\&E images from unstained tissue scans.
+* **Virtual Staining**: Replace chemical H\&E staining with a computational approach, generating realistic images from stained tissue scans.
 
 ### Challenges 
 Compute power: Trained the entire model in `NVIDIA RTX A5000` with `23 GB VRAM`. So as a result had to simplify the UNet, IO resolution `512 -> 256`, batch size etc
